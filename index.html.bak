@@ -17,16 +17,6 @@
     <meta property="og:image" content="https://www.elevdispositivos.com.br/midias/og-image.png">
     <meta property="og:url" content="https://www.elevdispositivos.com.br/">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-90ZXQG915N"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-90ZXQG915N');
-    </script>
-
     <!-- Comentário sobre o desenvolvimento -->
     <!-- Site desenvolvido por FOSSIO FORCE - https://fossioforce.com.br -->
     <!-- Desenvolvedor - Fossio -->
@@ -248,7 +238,7 @@
                     </div>
                 </div>
                 <div class="testimonial-quote">
-                    <p>"Os dispositivos da ELEV transformaram nossos processos de manutenção, trazendo mais segurança e produtividade para nossa operação."</p>
+                    <p>"Os dispositivos da ELEV transformaram nossos processos de manutenção, trazendo mais segurança e produtividade para nossa operação agrícola."</p>
                     <cite>— João Silva, Engenheiro Agrícola</cite>
                 </div>
             </div>
