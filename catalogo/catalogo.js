@@ -228,7 +228,7 @@ function createProductCard(product) {
     card.setAttribute('data-id', product.id);
     
     // Verificar se há imagem, caso contrário usar fallback
-    const imageUrl = product.url_img || 'https://raw.githubusercontent.com/Fossio-FTG-MCK/elevdispositivos/main/midias/elev-fallback-tratores.png'
+    const imageUrl = product.url_img || 'https://raw.githubusercontent.com/ElevDispositivos/site/main/midias/elev-fallback-tratores.png'
 ;
     
     // Extrair dados técnicos relevantes para o card
@@ -237,7 +237,7 @@ function createProductCard(product) {
     
     card.innerHTML = `
         <div class="product-image">
-            <img src="${imageUrl}" alt="${product.nome || 'Equipamento ELEV'}" onerror="this.src='https://raw.githubusercontent.com/Fossio-FTG-MCK/elevdispositivos/main/midias/elev-fallback-tratores.png'
+            <img src="${imageUrl}" alt="${product.nome || 'Equipamento ELEV'}" onerror="this.src='https://raw.githubusercontent.com/ElevDispositivos/site/main/midias/elev-fallback-tratores.png'
 ">
         </div>
         <div class="product-info">
@@ -324,7 +324,7 @@ function showProductDetails(product) {
     state.currentProductQuantity = 1;
     
     // Verificar se há imagem, caso contrário usar fallback
-    const mainImageUrl = product.url_img || 'https://github.com/Fossio-FTG-MCK/elevdispositivos/blob/main/midias/elev-fallback-tratores.png';
+    const mainImageUrl = product.url_img || 'https://github.com/ElevDispositivos/site/blob/main/midias/elev-fallback-tratores.png';
     
     // Preparar galeria de imagens
     let galleryHtml = '';
@@ -335,7 +335,7 @@ function showProductDetails(product) {
                 <div class="gallery-container">
                     ${product.url_midias_lista.map(url => 
                         `<div class="gallery-item">
-                            <img src="${url}" alt="${product.nome}" onerror="this.src='https://github.com/Fossio-FTG-MCK/elevdispositivos/blob/main/midias/elev-fallback-tratores.png'">
+                            <img src="${url}" alt="${product.nome}" onerror="this.src='https://github.com/ElevDispositivos/site/blob/main/midias/elev-fallback-tratores.png'">
                         </div>`
                     ).join('')}
                 </div>
@@ -365,7 +365,7 @@ function showProductDetails(product) {
     
     modalDetails.innerHTML = `
         <div class="modal-image">
-            <img src="${mainImageUrl}" alt="${product.nome}" onerror="this.src='https://raw.githubusercontent.com/Fossio-FTG-MCK/elevdispositivos/main/midias/elev-fallback-tratores.png'
+            <img src="${mainImageUrl}" alt="${product.nome}" onerror="this.src='https://raw.githubusercontent.com/ElevDispositivos/site/main/midias/elev-fallback-tratores.png'
 ">
         </div>
         <div class="modal-info">

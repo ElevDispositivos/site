@@ -7,7 +7,7 @@ git init
 git config user.name "Hyzy-io"
 git config user.email "desenvolvimento@hyzy.com.br"
 git remote remove origin >nul 2>&1
-git remote add origin https://github.com/Fossio-FTG-MCK/elevdispositivos.git
+git remote add origin https://github.com/ElevDispositivos/site.git
 git add .
 set /p msg="Mensagem do commit: "
 git commit -m "%msg%"
