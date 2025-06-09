@@ -1,1 +1,4 @@
-https://elevdispositivos.com.br/* https://www.elevdispositivos.com.br/:splat 301! 
+# Redirecionamentos para www (melhores práticas Netlify)
+https://elevdispositivos.com.br/* https://www.elevdispositivos.com.br/:splat 301!
+http://elevdispositivos.com.br/* https://www.elevdispositivos.com.br/:splat 301!
+http://www.elevdispositivos.com.br/* https://www.elevdispositivos.com.br/:splat 301! 

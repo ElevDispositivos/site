@@ -1,14 +1,2 @@
 [build]
   publish = "."
-
-[[redirects]]
-  from = "https://elevdispositivos.com.br/*"
-  to = "https://www.elevdispositivos.com.br/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://www.elevdispositivos.com.br/*"
-  to = "https://www.elevdispositivos.com.br/:splat"
-  status = 301
-  force = true
